@@ -116,27 +116,6 @@ Animations included:
 
 ---
 
-# 📂 Project Structure
-
-Example structure:
-
-```
-lib/
- ├── main.dart
- ├── screens/
- │   ├── home_screen.dart
- │   ├── game_screen.dart
- │   └── shop_screen.dart
- ├── widgets/
- │   ├── pet_widget.dart
- │   ├── stat_bar.dart
- │   └── basket_widget.dart
- └── models/
-     └── pet.dart
-```
-
----
-
 # 🚀 How to Run
 
 1. Install Flutter
@@ -146,7 +125,7 @@ https://flutter.dev/docs/get-started/install
 2. Clone the project
 
 ```
-git clone <your-repository-url>
+git clone <https://github.com/cjc094/tamagotchi.git>
 ```
 
 3. Install dependencies
@@ -160,31 +139,3 @@ flutter pub get
 ```
 flutter run
 ```
-
----
-
-# 📸 Demo
-
-For demonstration please include:
-
-- App screenshots
-- Gameplay GIF
-- Screen recording of the mini game
-
----
-
-# 📚 Learning Goals
-
-Through this project I practiced:
-
-- Flutter UI layout
-- Game interaction design
-- State updates
-- Mobile animation basics
-- Building a small interactive game
-
----
-
-# Author
-
-Flutter Tamagotchi Project
