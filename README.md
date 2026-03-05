@@ -101,7 +101,6 @@ Main actions:
 Animations included:
 
 - Pet idle animation
-- Basket upgrade glow effect
 - Coin catching feedback
 
 ---
