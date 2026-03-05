@@ -586,7 +586,7 @@ class _TamagotchiHomeState extends State<TamagotchiHome>
                                       if (_showHand)
                                         AnimatedBuilder(
                                           animation: _handProgress,
-                                          builder: (_, __) {
+                                          builder: (_, _) {
                                             final t = _handProgress.value;
                                             final dx = lerpDouble(120, 12, t)!;
                                             final dy = lerpDouble(-40, 8, t)!;
@@ -1080,22 +1080,7 @@ class _CoinCatchGameState extends State<CoinCatchGame> {
                         duration: const Duration(milliseconds: 600),
                         curve: Curves.easeOutBack,
                         builder: (context, scale, child) {
-                          return Transform.scale(
-                            scale: scale,
-                            child: DecoratedBox(
-                              decoration: BoxDecoration(
-                                boxShadow: [
-                                  if (widget.basketLevel > 0)
-                                    BoxShadow(
-                                      color: Colors.amber.withOpacity(0.6),
-                                      blurRadius: 18,
-                                      spreadRadius: 2,
-                                    ),
-                                ],
-                              ),
-                              child: child,
-                            ),
-                          );
+                          return Transform.scale(scale: scale, child: child);
                         },
                         child: Text(
                           '🧺',
